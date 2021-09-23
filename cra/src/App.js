@@ -16,7 +16,7 @@ const renderItem = item => <Item key={item.id}
 function App() {
   return (
     <div className="App">
-      { items.map(renderItem)}
+      { items.map(renderItem) }
       {/* <Item name="Notebook" checked={true}></Item>
       <Item name="Smartphone" checked={false}></Item>
       <Item name="Tablet" checked></Item>
