@@ -19,6 +19,7 @@ class PropClass extends Component {
     }
     render() {
         console.log(this.props);
+        
         //  구조 분해 할당
         let { prop_str, prop_num, 
             prop_false, prop_true, prop_obj,
