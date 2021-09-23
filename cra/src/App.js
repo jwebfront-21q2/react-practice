@@ -1,6 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Item from './components/Item';
 
+function App() {
+  return (
+    <div className="App">
+      <Item name="Notebook"></Item>
+      <Item name="Smartphone"></Item>
+      <Item name="Tablet"></Item>
+      <Item name="Monitor"></Item>
+    </div>
+  )
+}
+/*
 function App() {
   return (
     <div className="App">
@@ -21,5 +33,6 @@ function App() {
     </div>
   );
 }
+*/
 
 export default App;
